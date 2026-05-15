@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Avatar Demo</string>
+    <string name="login_title">Interactive AI Avatar</string>
+    <string name="hint_username">Enter Username</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_start_conversation">Start Conversation</string>
+    <string name="btn_end_conversation">End Conversation</string>
+    <string name="mic_on">Mic ON</string>
+    <string name="mic_off">Mic OFF</string>
+    <string name="status_ready">Ready</string>
+    <string name="video_placeholder">Click "Start Conversation" to begin</string>
+</resources>

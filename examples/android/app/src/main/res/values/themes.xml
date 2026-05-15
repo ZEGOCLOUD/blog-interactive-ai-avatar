@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AIAvatarDemo" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/accent_cyan</item>
+        <item name="colorPrimaryDark">@color/status_bar_bg</item>
+        <item name="colorAccent">@color/accent_cyan</item>
+        <item name="android:windowBackground">@color/dark_bg</item>
+        <item name="android:statusBarColor">@color/status_bar_bg</item>
+    </style>
+</resources>

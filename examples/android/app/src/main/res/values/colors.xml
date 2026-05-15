@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_bg">#FF1A1A2E</color>
+    <color name="card_bg">#FF16213E</color>
+    <color name="accent_blue">#FF0F3460</color>
+    <color name="accent_cyan">#FF53C0D0</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FFAAAAAA</color>
+    <color name="btn_start">#FF53C0D0</color>
+    <color name="btn_end">#FFE94560</color>
+    <color name="btn_mic_on">#FF2ECC71</color>
+    <color name="btn_mic_off">#FFE67E22</color>
+    <color name="status_bar_bg">#FF0F0F23</color>
+    <color name="input_bg">#FFE8E8E8</color>
+    <color name="text_dark">#FF222222</color>
+</resources>

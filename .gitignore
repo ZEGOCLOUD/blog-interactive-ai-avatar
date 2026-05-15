@@ -5,3 +5,4 @@ dist/
 *.log
 midscene_run/
 .DS_Store
+midscene_run/
