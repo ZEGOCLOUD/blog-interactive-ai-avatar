@@ -16,7 +16,7 @@ The project uses a Kotlin Android client paired with a Next.js API server, which
 
 ### Architecture Overview
 
-The application follows a three-tier architecture that separates the Android client, server, and ZEGO Cloud infrastructure:
+The application follows a three-tier architecture that separates the Android client, server, and ZEGOCLOUD infrastructure:
 
 ```mermaid
 graph TB
@@ -32,7 +32,7 @@ graph TB
         Sig["MD5 Signature<br>Authentication"]
     end
 
-    subgraph ZEGO["ZEGO Cloud"]
+    subgraph ZEGO["ZEGOCLOUD"]
         AgentAPI["AI Agent API<br>ASR → LLM → TTS"]
         DH["Digital Human<br>Renderer (1080P)"]
         RTC["RTC Infrastructure<br>Room · Stream"]
@@ -43,13 +43,13 @@ graph TB
     Android -->|WebRTC| ZEGO
 ```
 
-The Android client initiates a conversation by calling server APIs to register the agent, create a digital human instance, and obtain an RTC token. It then connects to the RTC room via the ZEGO Express SDK, publishes the user's audio stream, and receives the avatar's video stream. The server never handles media directly, it only orchestrates ZEGO Cloud APIs and generates authentication tokens.
+The Android client initiates a conversation by calling server APIs to register the agent, create a digital human instance, and obtain an RTC token. It then connects to the RTC room via the ZEGO Express SDK, publishes the user's audio stream, and receives the avatar's video stream. The server never handles media directly, it only orchestrates ZEGOCLOUD APIs and generates authentication tokens.
 
 ```mermaid
 sequenceDiagram
     participant App as Android App (Kotlin)
     participant Server as Server (Next.js)
-    participant ZEGO as ZEGO Cloud
+    participant ZEGO as ZEGOCLOUD
 
     Note over App: User enters username, taps Login
     App->>App: Navigate to MainActivity
