@@ -1,9 +1,16 @@
+---
+title: "How to Build an Interactive AI Avatar App for Android"
+published: false
+description: "Learn how to create AI avatars for Android with real-time voice interaction using ZEGOCLOUD Express SDK and Conversational AI. This step-by-step guide covers Kotlin implementation, agent registration, instance creation, and native video rendering for ai avatar development."
+tags: aiavatar, android, kotlin, webrtc, digitalhuman
+---
+
+# How to Build an Interactive AI Avatar App for Android
+
 Building an ai avatar that listens, speaks, and responds in real time on Android means chaining speech recognition, language modeling, synthesis, and lip-sync rendering while streaming video to a mobile device. This guide covers the complete architecture and Kotlin code for deploying a voice-interactive digital human on Android, from server API setup to native video rendering.
 
 **Get the complete source code:**
 - Android + Web client + server: [ZEGOCLOUD/blog-interactive-ai-avatar](https://github.com/ZEGOCLOUD/blog-interactive-ai-avatar)
-
-## How to Build an Interactive AI Avatar App for Android (Step-by-Step Guide)
 
 The project uses a Kotlin Android client paired with a Next.js API server, which orchestrates the ZEGOCLOUD Conversational AI platform. The Android app handles RTC streaming via the ZEGO Express SDK, while the server manages agent registration, instance creation, and token generation.
 
